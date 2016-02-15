@@ -1,0 +1,264 @@
+body
+ { 
+	background-image: url("repete.png")repeat fixed 100% 100%;
+	background-repeat: repeat; 
+	font-family: Arial;
+ }
+ h1{text-align: center;margin-top:10px;}
+ .patientpanel{
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	float:left;
+ }
+ .panel
+ {
+     width: 150px;
+     margin-left:0px;
+     background:#D3D3D3;
+     text-align:center;
+ }
+ .footer
+ {
+     position:fixed; bottom:0; width:100%;  /*SAHANA CHANGED*/
+ }
+     
+ .btn-divpatientpanel{
+	/*width:100%;
+	margin-top: 270px;*/
+	background:#8CCB73;
+	padding-left:350px;
+}
+     #pnum{width: 254px; height:2em; }
+     #pnamelbl{visibility: hidden;top:10px; position: relative;}
+     #pagelbl{top:13px; position: relative;width: 254px; height: 28px;}
+     #pmrlbl{visibility: hidden;top:13px; position: relative;width: 254px; height: 28px;}
+     #atndrlbl{top:13px; position: relative;width: 254px; height: 28px;}
+	 #admindatelbl{visibility: hidden;top:13px; position: relative;width: 254px; height: 28px;}
+	 #formtype{width:520px; height: 22px;}  /*SAHANA CHANGED*/
+.btn-div
+{
+    background:#8CCB73;
+	/*margin-top: 270px;
+	background:#8CCB73;
+	padding-left:380px;*/
+}
+#genderlbl{
+	left: 300px;
+	top: 100px;
+	position: absolute;
+	font-size: 25px;
+}
+ .check-listtxt{ /*changed the top and margin-left */
+	font-size: 20px;
+	margin-left:400px;
+	top:622px;
+	position: absolute;
+	line-height:40px;
+	float:left;
+ }
+ .check-list{
+	margin-left:370px;
+	margin-top: 105px;
+	float:left;
+ }
+ #check-div{display:none;}
+ 
+ /*SURGICAL FORM CSS STARTS HERE*/
+ .surgicalform{
+	height: 100%;
+	width: 100%;
+	float:left;	
+	position: relative;
+ }
+ .surgical-header{
+	font-size:20px;
+	margin-left: 150px;                     /*ARIF ADDED*/
+	margin-right: 150px;
+	text-align: justify;
+	line-height: 25px;
+	padding-bottom: 10px;
+ }
+.redtxt{color: #D74545; font-size:18px; font-family: arial;font-weight:bold;}        /*ARIF ADDED*/     
+.redtxtnormal{color: #D74545; font-size:18px; font-family: arial;}
+ .surgical-content{
+	padding-right: 40px;
+	padding-bottom:40px;
+	font-size:18px;
+	line-height: 20px;
+	margin-left: 200px;
+	width: 900px;
+	text-align:justify;
+	position: relative;
+ }
+ .signature-fields{
+	height:600px;
+	width: 140px;
+	top: 260px;
+	padding-left: 40px;
+	position: absolute;
+ }
+
+  /*SURGICAL CONSENT FORM CSS STARTS HERE */
+ .consentform{
+	height: 100%;
+	width: 100%;
+	float: left;
+ }
+ .sig{border:1px solid; width:140px;
+        border-color:#E2E2E2}/*SAHANA CHANGED*/
+ .signav .clearbutton{position: relative;}
+ 
+ .clearButton{margin:0px!important; padding: 0px!important; position: static!important;}                  
+ #consent-fields{
+	height: 40px;
+	width: 250px;
+	left: 50px;
+	border: #000 solid 1px;
+ }
+ 
+ /*#initial6{width: 135px; left:40px; top:320px;  position: absolute;}
+ #Sinitial1{left:0px;margin-top: 370px; padding-left:40px;padding-right:40px;}
+ #Sinitial2{left:0px;margin-top: 410px; padding-left:40px;padding-right:40px;}
+ #Sinitial3{left:0px;margin-top: 490px; padding-left:40px;padding-right:40px;} 
+ #Sinitial4{left:0px;margin-top: 570px; padding-left:40px;padding-right:40px;}
+ #Sinitial5{left:0px;margin-top: 650px; padding-left:40px;padding-right:40px;}*/
+
+
+/* CARDIAC SURGICAL CONSENT FORM CSS STARTS HERE*/
+
+.cardiacform{
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	float:left;
+ }
+                   /*COMMENTED ARIF*/
+  /*#CCLinitial1{left:0px;margin-top: 370px; padding-left:40px;padding-right:40px;position: relative;}
+  #CCLinitial2{left:0px;margin-top: 410px; padding-left:40px;padding-right:40px;position: relative;}
+  #CCLinitial3{left:0px;margin-top: 490px; padding-left:40px;padding-right:40px;position: relative;}               
+  #CCLinitial4{left:0px;margin-top: 570px; padding-left:40px;padding-right:40px;position: relative;}
+  #CCLinitial5{left:0px;margin-top: 650px; padding-left:40px;padding-right:40px;position: relative;}*/
+  
+ /* ENDOSCOPY SURGICAL CONSENT FORM CSS STARTS HERE */
+  
+  .endoscopyform{
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	float:left;
+  }
+  
+   /* BLOOD SURGICAL CONSENT FORM CSS STARTS HERE */
+  
+  .bloodform{
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	float:left;
+  }
+  
+  /* CONSENT CONSENT FORM CSS STARTS HERE */
+  
+  .consentform{
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	float:left;
+  }
+  
+  /*#CFinitial1{margin-left:40px;margin-top: 370px; padding-left:40px;padding-right:40px;position: relative;}
+  #CFinitial2{margin-left:40px;margin-top: 410px; padding-left:40px;padding-right:40px;position: relative;}
+  #CFinitial3{margin-left:40px;margin-top: 490px; padding-left:40px;padding-right:40px;position: relative;} 
+  #CFinitial4{margin-left:40px;margin-top: 570px; padding-left:40px;padding-right:40px;position: relative;}
+  #CFinitial5{margin-left:40px;margin-top: 650px; padding-left:40px;padding-right:40px;position: relative;}
+  #CFinitial6{margin-left:40px;margin-top: 570px; padding-left:40px;padding-right:40px;position: relative;}
+  #CFinitial7{margin-left:40px;margin-top: 600px; padding-left:40px;padding-right:40px;position: relative;}*/
+
+  #pselect /* Width and height of patient dropdown*/
+{
+  width: 520px; 
+  height:22px;   /*SAHANA CHANGED*/
+}
+  .Dropdownlist /*SAHANA ADDED*/
+{
+  width: 487px; 
+  height:22px;  
+}
+.listborder /*SAHANA ADDED*/
+{
+    border:1px solid #ABADB3;
+    width:487px;
+     margin-left:6px;
+     background-color:#fff;
+}
+
+.roundedBox /*CSS FOR NAME, MR, ATD DR, ADM DATE LABELS DIV*/
+{
+border:1px solid #a1a1a1;
+padding:2px 200px 3px 15px;  /*SAHANA CHANGED*/ 
+background:#dddddd;
+/*width:50px;*/
+height:20px;
+border-radius:20px;
+-webkit-border-radius: 20px; 
+
+}
+.roundedboxAge /* CSS FOR AGE LABELS DIV*/ /*SAHANA CHANGED*/
+{
+    height:20px; 
+border:1px solid #a1a1a1;
+padding:2px 90px 3px 15px;  /*SAHANA CHANGED*/
+background:#dddddd;
+/*width:50px;*/
+border-radius:20px;
+-webkit-border-radius: 20px; 
+/*box-shadow: 6px 90px 3px 5px; */
+}
+.roundedboxGender /* CSS FOR GENDER LABELS DIV*/
+{
+    height:20px;
+border:1px solid #a1a1a1;
+padding:2px 90px 3px 15px;  /*SAHANA CHANGED*/
+background:#dddddd;
+/*width:50px;
+height:10px;*/
+border-radius:20px;
+-webkit-border-radius: 20px; 
+
+
+}
+.Logo   /*SAHANA ADDED*/
+{
+   margin-left:10px;
+   margin-top:10px;
+  border-bottom: 1px solid #1f4295; 
+   width:98%;
+   
+}
+ .sig1{border:1px solid #ABADB3; width:600px; } /*SAHANA ADDED*/
+ 
+ .bottombar /*SAHANA ADDED*/
+ {
+      margin-top:3px;
+      border-bottom: 1px solid #1f4295; 
+   width:98%; 
+ }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+ 
